@@ -12,9 +12,9 @@ $ sudo yum install php83-php-cli.x86_64
 
 $ curl -sS https://getcomposer.org/installer -o composer-setup.php
 
-$ php83 composer-setup.php --install-dir=/usr/local/bin --filename=composer
+$ sudo php83 composer-setup.php --install-dir=/usr/bin --filename=composer
 
-$ php83 /usr/local/bin/composer require bref/bref
+$ composer require bref/bref
 
 $ nano serverless.yaml
 
