@@ -24,11 +24,11 @@ serverless.yaml content: https://bref.sh/docs/runtimes/fpm-runtime#usage
 
 $ sudo npm install serverless -g
 
-$ serverless config credentials --provider aws --key "key" --secret "secret"
+$ sudo serverless config credentials --provider aws --key "key" --secret "secret"
 
 create user(need "AdministratorAccess") and get key secret, ref: https://bref.sh/docs/setup/aws-keys
 
-$ serverless deploy
+$ sudo serverless deploy
 
 Lambda > Applications > app1 > Overview > HttpApi.PhsicalID
 visit url: https://<PhsicalID>.execute-api.us-east-1.amazonaws.com/
