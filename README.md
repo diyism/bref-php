@@ -28,6 +28,9 @@ create user(need "AdministratorAccess") and get key secret, ref: https://bref.sh
 
 $ serverless deploy
 
+Lambda > Applications > app1 > Overview > HttpApi.PhsicalID
+visit url: https://<PhsicalID>.execute-api.us-east-1.amazonaws.com/
+
 ---
 layout: home
 ---
