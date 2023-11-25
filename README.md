@@ -6,7 +6,7 @@ $ sudo amazon-linux-extras install epel -y
 
 $ sudo yum install https://rpms.remirepo.net/enterprise/remi-release-7.rpm -y
 
-$ yum list available php\* | grep cli
+$ sudo yum list available php\* | grep cli
 
 $ sudo yum install php83-php-cli.x86_64
 
