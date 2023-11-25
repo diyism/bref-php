@@ -14,7 +14,7 @@ $ curl -sS https://getcomposer.org/installer -o composer-setup.php
 
 $ php83 composer-setup.php --install-dir=/usr/local/bin --filename=composer
 
-$ /usr/local/bin/composer require bref/bref
+$ php83 /usr/local/bin/composer require bref/bref
 
 $ nano serverless.yaml
 
