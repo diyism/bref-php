@@ -24,7 +24,7 @@ $ sudo npm install serverless -g
 
 $ serverless config credentials --provider aws --key "key" --secret "secret"
 
-create user(need no "AdministratorAccess", only "AWSCloudFormationFullAccess") and get key secret, ref: https://bref.sh/docs/setup/aws-keys
+create user(need "AdministratorAccess") and get key secret, ref: https://bref.sh/docs/setup/aws-keys
 
 $ serverless deploy
 
