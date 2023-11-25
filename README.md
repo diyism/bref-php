@@ -22,7 +22,7 @@ $ nano serverless.yaml
 
 serverless.yaml content: https://bref.sh/docs/runtimes/fpm-runtime#usage
 
-$ echo '<?php echo "hello";?>' > index.php
+$ echo '`<?php echo "hello";?>`' > index.php
 
 $ sudo npm install serverless -g
 
