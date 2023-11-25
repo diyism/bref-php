@@ -10,9 +10,11 @@ $ sudo yum list available php\* | grep cli
 
 $ sudo yum install php83-php-cli.x86_64
 
+$ sudo cp /usr/bin/php83 /usr/bin/php
+
 $ curl -sS https://getcomposer.org/installer -o composer-setup.php
 
-$ sudo php83 composer-setup.php --install-dir=/usr/bin --filename=composer
+$ sudo php composer-setup.php --install-dir=/usr/bin --filename=composer
 
 $ composer require bref/bref
 
