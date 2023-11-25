@@ -1,3 +1,19 @@
+open https://console.aws.amazon.com/lambda/
+
+click "CloudShell" icon or open https://console.aws.amazon.com/cloudshell/
+
+$ 
+
+$ composer require bref/bref
+
+$ nano serverless.yaml
+
+serverless.yaml content: https://bref.sh/docs/runtimes/fpm-runtime#usage
+
+$ sudo npm install serverless -g
+
+$ serverless deploy
+
 ---
 layout: home
 ---
