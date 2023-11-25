@@ -22,6 +22,18 @@ $ nano serverless.yaml
 
 serverless.yaml content: https://bref.sh/docs/runtimes/fpm-runtime#usage
 
+    service: app
+    provider:
+        name: aws
+    plugins:
+        - ./vendor/bref/bref
+    functions:
+        app:
+            handler: index.php
+            runtime: php-83-fpm
+            events:
+                - httpApi: '*'
+
 $ echo '`<?php echo "hello";?>`' > index.php
 
 $ sudo npm install serverless -g
